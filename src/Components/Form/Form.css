@@ -1,0 +1,35 @@
+.mainForm {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form {
+  background-color: #3ad886;
+  height: 50vh;
+  width: 30vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.defaultImage {
+  height: 37%;
+  width: 75%;
+  /* border: rgb(221, 147, 147) solid 1px; */
+  background-image: url('https://nciaffiliates.org/wp-content/uploads/2015/01/default-placeholder-1024x1024-570x321.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.buttonBar {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

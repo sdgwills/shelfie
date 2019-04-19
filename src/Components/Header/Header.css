@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 100px;
+  width: 100vw;
+  background-color: #ab2a19;
+  font-weight: none;
+  position: fixed;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  margin-left: 80px;
+  margin-right: 30px;
+}
+
+h1 {
+  margin-right: 50px;
+  height: 50px;
+}
+
+.links {
+  height: auto;
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link-button {
+  background-color: #ed6b5a;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+  font-size: 115%;
+  padding: 5px 10px;
+}
